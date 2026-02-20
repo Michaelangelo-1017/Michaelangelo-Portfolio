@@ -1,0 +1,15 @@
+You are building a production-ready personal portfolio for a developer named Michaelangelo.
+
+Rules:
+- Use Next.js 14 App Router. Never use Pages Router.
+- All components use TypeScript with proper interfaces. No `any` types.
+- All styling uses Tailwind CSS utility classes only. No inline styles. No CSS modules.
+- Use Framer Motion for all animations. Animations must be scroll-triggered using whileInView.
+- Primary color is #199bff. Secondary accent is purple (#a855f7). Background is white (#ffffff).
+- Display font is Bebas Neue. Body font is DM Sans. Both loaded via next/font/google.
+- All sections use semantic HTML: <section>, <article>, <header>, <nav>, <footer>, <main>.
+- Mobile-first. Build for 375px first, then scale up with Tailwind responsive prefixes.
+- Never invent fake testimonials, metrics, or client results.
+- Use FadeInView wrapper component for all scroll-triggered reveals.
+- Keep components small and single-responsibility.
+- All data (projects, features, skills) lives in /src/data/ files. Components import from there.
