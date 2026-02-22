@@ -20,15 +20,15 @@ export default function ProjectCard({ title, tag, description, link, stack }: Pr
             target="_blank"
             rel="noopener noreferrer"
             aria-label={`View ${title}`}
-            className="opacity-0 group-hover:opacity-100 transition-opacity duration-200 p-2 rounded-full hover:bg-gray-50"
+            className="inline-flex items-center justify-center min-h-[44px] min-w-[44px] opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-200 p-2 rounded-full border-2 border-gray-200 hover:border-gray-300 hover:bg-gray-50 focus:opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue focus-visible:ring-offset-2"
           >
             <ArrowUpRight size={20} className="text-off-black" />
           </a>
         </div>
-        <h3 className="font-display text-3xl tracking-wide text-off-black mb-3 leading-none">
+        <h3 className="font-display text-xl sm:text-2xl lg:text-3xl tracking-wide text-off-black mb-3 leading-none">
           {title}
         </h3>
-        <p className="font-body text-sm text-gray-500 leading-relaxed">{description}</p>
+        <p className="font-body text-sm sm:text-base text-gray-500 leading-relaxed">{description}</p>
       </div>
       <div className="flex flex-wrap gap-2 mt-6">
         {stack.map((s) => (

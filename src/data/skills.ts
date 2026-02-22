@@ -7,4 +7,7 @@ export const skills = [
   'Vercel',
   'Mailchimp',
   'Resend',
+  'n8n',
+  'Google Workspace',
+  'Microsoft Office'
 ]

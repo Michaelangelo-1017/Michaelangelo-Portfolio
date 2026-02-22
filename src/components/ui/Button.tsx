@@ -5,12 +5,14 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'ghost'
   size?: 'sm' | 'md' | 'lg'
   href?: string
+  target?: string
 }
 
 export default function Button({
   variant = 'primary',
   size = 'md',
   href,
+  target,
   className,
   children,
   ...props
@@ -26,16 +28,16 @@ export default function Button({
   }
 
   const sizes = {
-    sm: 'px-5 py-2 text-sm',
-    md: 'px-7 py-3 text-base',
-    lg: 'px-9 py-4 text-lg',
+    sm: 'px-5 py-3 text-sm min-h-[44px]',
+    md: 'px-7 py-3 text-base min-h-[44px]',
+    lg: 'px-9 py-4 text-lg min-h-[44px]',
   }
 
   const classes = cn(base, variants[variant], sizes[size], className)
 
   if (href) {
     return (
-      <a href={href} className={classes}>
+      <a href={href} target={target} className={classes}>
         {children}
       </a>
     )

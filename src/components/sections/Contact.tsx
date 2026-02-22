@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-32 px-6 overflow-hidden"
+      className="py-10 sm:py-16 lg:py-24 xl:py-32 overflow-hidden"
       aria-label="Contact section"
     >
       <div className="max-w-4xl mx-auto text-center">
@@ -22,7 +22,7 @@ export default function Contact() {
         </FadeInView>
 
         <FadeInView delay={0.2}>
-          <p className="font-body text-xl text-gray-500 max-w-lg mx-auto mb-12 leading-relaxed">
+          <p className="font-body text-base sm:text-lg lg:text-xl text-gray-500 max-w-lg mx-auto mb-12 leading-relaxed">
             I&apos;m currently taking on new projects. If you&apos;re a small business owner
             who wants a fast, clean website with automation built in then let&apos;s talk.
           </p>
@@ -30,7 +30,7 @@ export default function Contact() {
 
         <FadeInView delay={0.3}>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
-            <Button href="mailto:jagbodyke01@gmail.com" size="lg">
+            <Button href="https://docs.google.com/forms/d/e/1FAIpQLScWoGxg-HqF1kDaSsPBG1B-SERR8UinopxGDwTnI-3vlIvi_A/viewform?usp=header" size="lg" target="_blank">
               Start a Project
             </Button>
             <Button href="mailto:jagbodyke01@gmail.com" variant="ghost" size="lg">

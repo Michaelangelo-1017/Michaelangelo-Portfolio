@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="w-full max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 pb-safe">
         <Hero />
         <Services />
         <AutomationAngle />

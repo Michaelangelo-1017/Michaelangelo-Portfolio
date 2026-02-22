@@ -27,10 +27,10 @@ export default function AutomationAngle() {
   return (
     <section
       id="automation"
-      className="py-24 px-6 bg-off-black text-white overflow-hidden"
+      className="w-screen relative left-1/2 -translate-x-1/2 py-10 sm:py-16 lg:py-24 bg-off-black text-white overflow-hidden"
       aria-label="Automation section"
     >
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <FadeInView>
           <SectionLabel light>Why Automation Matters</SectionLabel>
         </FadeInView>
@@ -42,18 +42,18 @@ export default function AutomationAngle() {
           </h2>
         </FadeInView>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
           {columns.map(({ icon: Icon, title, body, accent }, i) => (
-            <FadeInView key={title} delay={0.1 * (i + 2)}>
+            <FadeInView key={title} delay={0.1 * (i + 2)} className="min-w-0">
               <article
-                className={`p-8 rounded-2xl border ${
+                className={`h-full min-h-[320px] p-8 rounded-2xl border flex flex-col ${
                   accent === 'blue'
                     ? 'border-blue/30 bg-blue/5'
                     : 'border-purple/30 bg-purple/5'
                 }`}
               >
                 <div
-                  className={`inline-flex p-3 rounded-xl mb-6 ${
+                  className={`flex items-center justify-center w-12 h-12 rounded-xl mb-6 ${
                     accent === 'blue' ? 'bg-blue/20' : 'bg-purple/20'
                   }`}
                 >
@@ -62,10 +62,10 @@ export default function AutomationAngle() {
                     className={accent === 'blue' ? 'text-blue' : 'text-purple'}
                   />
                 </div>
-                <h3 className="font-display text-3xl tracking-wide text-white mb-4 leading-tight">
+                <h3 className="font-display text-xl sm:text-2xl lg:text-3xl tracking-wide text-white mb-4 leading-tight">
                   {title}
                 </h3>
-                <p className="font-body text-gray-400 leading-relaxed">{body}</p>
+                <p className="font-body text-sm sm:text-base text-gray-400 leading-relaxed flex-1">{body}</p>
               </article>
             </FadeInView>
           ))}

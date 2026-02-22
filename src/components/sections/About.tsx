@@ -7,7 +7,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-24 px-6 bg-gray-50/50"
+      className="py-10 sm:py-16 lg:py-24 bg-gray-50/50"
       aria-label="About section"
     >
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16 items-start">
@@ -22,7 +22,7 @@ export default function About() {
             </h2>
           </FadeInView>
           <FadeInView delay={0.2}>
-            <div className="space-y-4 font-body text-lg text-gray-600 leading-relaxed">
+            <div className="space-y-4 font-body text-sm sm:text-base lg:text-lg text-gray-600 leading-relaxed">
               <p>
                 I&apos;m Michaelangelo, a full-stack developer who builds fast, clean websites
                 for small businesses that want to show up professionally online.
@@ -57,13 +57,13 @@ export default function About() {
             {/* Decorative stat-style boxes — use only non-fabricated copy */}
             <div className="grid grid-cols-2 gap-4 mt-12">
               <div className="p-6 bg-white rounded-2xl border border-gray-100 text-center">
-                <p className="font-display text-5xl tracking-wide text-blue leading-none mb-2">
+                <p className="font-display text-3xl sm:text-4xl lg:text-5xl tracking-wide text-blue leading-none mb-2">
                   10–14
                 </p>
                 <p className="font-body text-sm text-gray-400">Day turnaround</p>
               </div>
               <div className="p-6 bg-white rounded-2xl border border-gray-100 text-center">
-                <p className="font-display text-5xl tracking-wide text-purple leading-none mb-2">
+                <p className="font-display text-3xl sm:text-4xl lg:text-5xl tracking-wide text-purple leading-none mb-2">
                   £450
                 </p>
                 <p className="font-body text-sm text-gray-400">Introductory rate</p>
