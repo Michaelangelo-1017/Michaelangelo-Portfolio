@@ -8,24 +8,24 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: '[Project Name]',
+    title: 'Aurelia Turnover Cleaning',
     tag: 'Small Business Website',
-    description: '[Brief one-line description of the project and outcome.]',
-    link: '#',
+    description: 'Aurelia Turnover Cleaning is a demo website that provides cleaning services to the community which I designed and built. I built this as a demo website to learn Next.js and Tailwind CSS.',
+    link: 'https://aurelia-turnover-cleaning-webpage.vercel.app',
     stack: ['Next.js', 'Tailwind', 'Vercel'],
   },
   {
-    title: '[Project Name]',
-    tag: 'Website + Automation',
-    description: '[Brief one-line description of the project and outcome.]',
-    link: '#',
-    stack: ['Next.js', 'Mailchimp', 'Framer Motion'],
+    title: 'Momentum Peak',
+    tag: 'Landing Page + Automation',
+    description: 'Momentum Peak is a demo website for a personal trainer which I designed and built. I built this as a demo website to learn Next.js, Tailwind CSS, Framer Motion and automation.',
+    link: 'https://momentum-peak-web-page.vercel.app',
+    stack: ['Next.js', 'Tailwind', 'Framer Motion', 'TypeScript', 'Vercel'],
   },
   {
-    title: '[Project Name]',
-    tag: 'E-Commerce Build',
-    description: '[Brief one-line description of the project and outcome.]',
-    link: '#',
-    stack: ['Next.js', 'Shopify', 'TypeScript'],
+    title: 'Michaelangelo Portfolio',
+    tag: 'Portfolio Website',
+    description: 'Michaelangelo Portfolio is a portfolio website for myself a full-stack developer. I built this as a portfolio website to learn Next.js, Tailwind CSS, Framer Motion, AI integration and automation.',
+    link: 'https://michaelangelo-portfolio.vercel.app',
+    stack: ['Next.js', 'Tailwind', 'Framer Motion', 'TypeScript', 'Vercel', 'n8n'],
   },
 ]
