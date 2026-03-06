@@ -35,7 +35,7 @@ export default function Hero() {
         >
           <span className="w-2 h-2 rounded-full bg-blue animate-pulse" aria-hidden="true" />
           <span className="font-body text-sm font-semibold uppercase tracking-[0.2em] text-gray-500">
-            Full Stack Developer · Available for new projects
+            Full Stack Developer + Automation Consultant · Available for new projects
           </span>
         </motion.div>
 
