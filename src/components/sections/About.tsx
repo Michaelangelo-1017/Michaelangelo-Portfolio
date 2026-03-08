@@ -24,13 +24,13 @@ export default function About() {
           <FadeInView delay={0.2}>
             <div className="space-y-4 font-body text-sm sm:text-base lg:text-lg text-gray-600 leading-relaxed">
               <p>
-                I&apos;m Michaelangelo, a full-stack developer who builds fast, clean websites
-                for small businesses that want to show up professionally online.
+                I&apos;m Michaelangelo, a full-stack developer and automation consultant who builds fast, clean websites
+                for small businesses that want to show up professionally online and automate their business.
               </p>
               <p>
                 I work with founders, small business owners and solo operators who need a site that actually does
                 something: captures leads, looks sharp on every device, and doesn&apos;t need
-                constant babysitting.
+                constant babysitting. I also help them automate their business to save time and focus on the things that matter.
               </p>
               <p className="italic text-gray-400">
                 When I&apos;m not building, I&apos;m{' '}
@@ -58,13 +58,13 @@ export default function About() {
             <div className="grid grid-cols-2 gap-4 mt-12">
               <div className="p-6 bg-white rounded-2xl border border-gray-100 text-center">
                 <p className="font-display text-3xl sm:text-4xl lg:text-5xl tracking-wide text-blue leading-none mb-2">
-                  10–14
+                  5-14
                 </p>
                 <p className="font-body text-sm text-gray-400">Day turnaround</p>
               </div>
               <div className="p-6 bg-white rounded-2xl border border-gray-100 text-center">
                 <p className="font-display text-3xl sm:text-4xl lg:text-5xl tracking-wide text-purple leading-none mb-2">
-                  £450
+                  £199 - £499
                 </p>
                 <p className="font-body text-sm text-gray-400">Introductory rate</p>
               </div>
