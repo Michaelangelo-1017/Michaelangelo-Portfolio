@@ -6,7 +6,7 @@ export default function Footer() {
           MICHAELANGELO
         </span>
         <p className="font-body text-sm text-gray-400">
-          © {new Date().getFullYear()} Michaelangelo · Full-Stack Developer
+          © {new Date().getFullYear()} Michaelangelo · Automation Consultant & Full-Stack Developer
         </p>
       </div>
     </footer>
