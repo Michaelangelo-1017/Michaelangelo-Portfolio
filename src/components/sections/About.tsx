@@ -64,7 +64,7 @@ export default function About() {
               </div>
               <div className="p-6 bg-white rounded-2xl border border-gray-100 text-center">
                 <p className="font-display text-3xl sm:text-4xl lg:text-5xl tracking-wide text-purple leading-none mb-2">
-                  £199 - £499
+                  £249 - £549
                 </p>
                 <p className="font-body text-sm text-gray-400">Introductory rate</p>
               </div>

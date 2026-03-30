@@ -47,7 +47,7 @@ export default function Services() {
                   Introductory Rate
                 </p>
                 <p className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-wider text-off-black leading-none mb-2">
-                  £199
+                  £249
                 </p>
                 <p className="font-body text-sm text-gray-400">
                   First 3 clients only · 5-7 day delivery time
@@ -99,7 +99,7 @@ export default function Services() {
                   Introductory Rate
                 </p>
                 <p className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl tracking-wider text-off-black leading-none mb-2">
-                  £499
+                  £549
                 </p>
                 <p className="font-body text-sm text-gray-400">
                   First 3 clients only · 10-14 day delivery time
